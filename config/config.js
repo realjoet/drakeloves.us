@@ -9,7 +9,7 @@ var config = {
       name: 'drake-vtines'
     },
     port: 3000,
-    db: 'mongodb://localhost/drake-vtines-development'
+    db: 'mongodb://heroku_4k019sh1:c7oupncgub3f702cv8luthqsnt@ds037195.mongolab.com:37195/heroku_4k019sh1'
   },
 
   test: {
@@ -26,8 +26,8 @@ var config = {
     app: {
       name: 'drake-vtines'
     },
-    port: 3000,
-    db: 'mongodb://localhost/drake-vtines-production'
+    port: process.env.PORT,
+    db: process.env.MONGOLAB_URI
   }
 };
 
