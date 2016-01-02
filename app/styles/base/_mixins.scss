@@ -1,0 +1,5 @@
+@mixin box-sizing($type) {
+  -webkit-box-sizing: $type; // Safari <= 5
+     -moz-box-sizing: $type; // Firefox <= 19
+          box-sizing: $type;
+}
