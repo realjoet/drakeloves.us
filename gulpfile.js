@@ -5,12 +5,14 @@ var gulp = require('gulp'),
   sass = require('gulp-ruby-sass');
 
 gulp.task('sass', function () {
+  console.log('piping');
   return sass('./app/styles/*.scss')
     .pipe(gulp.dest('./public/css'))
     .pipe(livereload());
 });
 
 gulp.task('watch', function() {
+  console.log('watching');
   gulp.watch('./app/styles/**/*.scss', ['sass']);
 });
 
