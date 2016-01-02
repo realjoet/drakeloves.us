@@ -8,3 +8,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+.welcome-header {
+  font-size: 8vw;
+  text-shadow: 0 0 15px rgba(0, 2, 0, .4);
+  text-align: center;
+}
