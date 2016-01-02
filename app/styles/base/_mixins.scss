@@ -3,3 +3,10 @@
      -moz-box-sizing: $type; // Firefox <= 19
           box-sizing: $type;
 }
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}
