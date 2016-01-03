@@ -1,13 +1,23 @@
 .site-container {
+  background-image: radial-gradient(circle at 40% 30% , #F73A49 0%, #F73A49 5%, $deep-red 95%);
   display: flex;
     flex-flow: column wrap;
-  padding: 100px 50px;
+  padding: 60px 50px;
 }
 
 .welcome-header {
+  font-family: 'Pacifico', cursive;
   font-size: 8vw;
   text-shadow: 0 0 15px rgba(0, 2, 0, .4);
   text-align: center;
+}
+
+.cta {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  width: 50%;
 }
 
 .vip-input-container {
@@ -29,22 +39,35 @@
 
   @include placeholder {
     color: $base-white;
-    text-align: center;
+    font-family: 'Allura', cursive;
   }
 }
 
 #vip-submit-button {
-  background: none;
-  border: 3px solid $base-white;
-  color: $base-white;
-  font-size: 1.8em;
+  background: $base-white;
+  border: none;
+  box-shadow: 1px 1px 8px rgba(0, 2, 0, .6);
+  color: $deep-red;
+  cursor: pointer;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6em;
   margin: 0 0 0 20px;
-  padding: 10px 15px;
+  padding: 10px 20px;
   transition: all .4s;
 
   &:hover {
-    background: $base-white;
-    color: $deep-red;
+    box-shadow: 1px 1px 8px rgba(0, 2, 0, .8);
+    transform: scale(1.05);
   }
+}
 
+.shouts {
+  font-family: 'Pacifico', cursive;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: $base-white;
+  }
 }
