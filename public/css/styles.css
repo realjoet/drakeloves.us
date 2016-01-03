@@ -52,6 +52,50 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@-webkit-keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    transform: scale(1.01); }
+  25% {
+    transform: rotateZ(10deg); }
+  75% {
+    transform: rotateZ(-10deg); }
+  100% {
+    transform: rotateZ(0);
+    transform: scale(1.05); } }
+@-moz-keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    transform: scale(1.01); }
+  25% {
+    transform: rotateZ(10deg); }
+  75% {
+    transform: rotateZ(-10deg); }
+  100% {
+    transform: rotateZ(0);
+    transform: scale(1.05); } }
+@-o-keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    transform: scale(1.01); }
+  25% {
+    transform: rotateZ(10deg); }
+  75% {
+    transform: rotateZ(-10deg); }
+  100% {
+    transform: rotateZ(0);
+    transform: scale(1.05); } }
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0);
+    transform: scale(1.01); }
+  25% {
+    transform: rotateZ(10deg); }
+  75% {
+    transform: rotateZ(-10deg); }
+  100% {
+    transform: rotateZ(0);
+    transform: scale(1.05); } }
 .site-container {
   background-image: radial-gradient(circle at 40% 30%, #F73A49 0%, #F73A49 5%, #E92452 95%);
   display: flex;
@@ -112,7 +156,11 @@ table {
   transition: all .4s; }
   #vip-submit-button:hover {
     box-shadow: 1px 1px 8px rgba(0, 2, 0, 0.8);
-    transform: scale(1.05); }
+    transform: scale(1.05);
+    -webkit-animation: wiggle .6s;
+    -moz-animation: wiggle .6s;
+    -o-animation: wiggle .6s;
+    animation: wiggle .6s; }
 
 .shouts {
   font-family: 'Pacifico', cursive;
