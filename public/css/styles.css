@@ -161,4 +161,34 @@ img {
   width: 100%; }
 
 .social-share-container {
+  display: flex;
+  flex-flow: row wrap;
   margin-top: 30px; }
+
+.share-statement {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  width: 100%; }
+
+.share-button--facebook, .share-button--instagram, .share-button--twitter {
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all .4s;
+  width: 33.3%; }
+
+.share-button--facebook {
+  background: #3b5998; }
+  .share-button--facebook:hover {
+    background: #2d4373; }
+
+.share-button--instagram {
+  background: #3F729B; }
+  .share-button--instagram:hover {
+    background: #305777; }
+
+.share-button--twitter {
+  background: #55acee; }
+  .share-button--twitter:hover {
+    background: #2795e9; }

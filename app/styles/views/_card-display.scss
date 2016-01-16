@@ -21,5 +21,54 @@ img {
 }
 
 .social-share-container {
+  display: flex;
+    flex-flow: row wrap;
   margin-top: 30px;
+}
+
+.share-statement {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+%share-button {
+  color: $base-white;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all .4s;
+  width: 33.3%;
+}
+
+.share-button--facebook {
+  @extend %share-button;
+
+  background: $facebook-blue;
+
+  &:hover { 
+    background: darken($facebook-blue, 10%);
+  }
+}
+
+.share-button--instagram {
+  @extend %share-button;
+  
+  background: $instagram-blue;
+
+  &:hover { 
+    background: darken($instagram-blue, 10%);
+  }
+}
+
+.share-button--twitter {
+  @extend %share-button;
+  
+  background: $twitter-blue;
+
+  &:hover { 
+    background: darken($twitter-blue, 10%);
+  }
+
+
 }

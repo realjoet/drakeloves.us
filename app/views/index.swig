@@ -13,9 +13,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A5xZtUAVUVfjBtVtMOgMkyy" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
 
@@ -25,9 +26,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6FedhFiHb0KxTvOD1qEX8L" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
 
@@ -37,9 +39,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A4jtyUzZm9WLc2AdaJ1dso7" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
 
@@ -49,9 +52,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3fyMH1t6UPeR5croea9PrR" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
 
@@ -61,9 +65,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6nmz4imkDcmtwMjocAzFSx" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
 
@@ -73,9 +78,10 @@
         <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6FedhFiHb0KxTvOD1qEX8L" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
       </div>
       <div class="social-share-container">
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
-        <div class="social-share-button"></div>
+        <span class="share-statement">Share the love</span>
+        <div class="share-button--facebook">Facebook</div>
+        <div class="share-button--instagram">Instagram</div>
+        <div class="share-button--twitter">Twitter</div>
       </div>
     </section>
   </div>
