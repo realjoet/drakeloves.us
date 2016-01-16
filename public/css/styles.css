@@ -162,18 +162,13 @@ img {
 
 .social-share-container {
   display: flex;
-  flex-flow: row wrap;
-  margin-top: 30px; }
-
-.share-statement {
-  font-size: 1.8rem;
-  margin-bottom: 5px;
-  width: 100%; }
+  flex-flow: row wrap; }
 
 .share-button--facebook, .share-button--instagram, .share-button--twitter {
   color: #ffffff;
   cursor: pointer;
-  padding: 10px 15px;
+  font-size: 1.2rem;
+  padding: 15px 0;
   text-align: center;
   transition: all .4s;
   width: 33.3%; }
