@@ -22,7 +22,11 @@
   background-image: radial-gradient(circle at 40% 30% , #F73A49 0%, #F73A49 5%, $deep-red 95%);
   display: flex;
     flex-flow: column wrap;
-  padding: 0 50px;
+  padding: 0 20px;
+
+  @media (min-width: $break-one) {
+    padding: 0 50px;
+  }
 }
 
 .welcome-header {
