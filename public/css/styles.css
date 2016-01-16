@@ -100,18 +100,23 @@ table {
   background-image: radial-gradient(circle at 40% 30%, #F73A49 0%, #F73A49 5%, #E92452 95%);
   display: flex;
   flex-flow: column wrap;
-  padding: 0 20px; }
+  padding: 30px 20px; }
   @media (min-width: 786px) {
     .site-container {
-      padding: 0 50px; } }
+      padding: 60px 50px; } }
 
 .welcome-header {
   font-family: 'Pacifico', cursive;
-  font-size: 8vw;
-  padding: 60px 0;
+  font-size: 12vw;
+  line-height: 14vw;
+  padding: 0 0 20px;
   text-shadow: 0 0 15px rgba(0, 2, 0, 0.4);
   text-align: center;
   width: 100%; }
+  @media (min-width: 786px) {
+    .welcome-header {
+      font-size: 8vw;
+      line-height: 8vw; } }
 
 .card-display-container {
   display: flex;
@@ -122,79 +127,38 @@ table {
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin: 0 auto;
-  padding: 100px 0 0;
   text-align: center;
-  width: 70%; }
-
-.drakes-vip-valentine {
-  width: 100%; }
-
-.vip-input-container {
-  align-self: flex-end;
-  padding: 100px 0;
-  text-align: center;
-  width: 100%; }
-
-#vip-collection-input {
-  background: none;
-  border: none;
-  border-bottom: 1px solid #ffffff;
-  color: #ffffff;
-  font-size: 1.8em;
-  outline: none;
-  padding: 10px 15px;
-  width: 30%; }
-  #vip-collection-input::-webkit-input-placeholder {
-    color: #ffffff;
-    font-family: 'Allura', cursive; }
-  #vip-collection-input:-moz-placeholder {
-    color: #ffffff;
-    font-family: 'Allura', cursive; }
-  #vip-collection-input::-moz-placeholder {
-    color: #ffffff;
-    font-family: 'Allura', cursive; }
-  #vip-collection-input:-ms-input-placeholder {
-    color: #ffffff;
-    font-family: 'Allura', cursive; }
-
-#vip-submit-button {
-  background: #ffffff;
-  border: none;
-  box-shadow: 1px 1px 8px rgba(0, 2, 0, 0.6);
-  color: #E92452;
-  cursor: pointer;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.6em;
-  margin: 0 0 0 20px;
-  padding: 10px 20px;
-  transition: all .4s; }
-  #vip-submit-button:hover {
-    box-shadow: 1px 1px 8px rgba(0, 2, 0, 0.8);
-    transform: scale(1.05);
-    -webkit-animation: wiggle .6s;
-    -moz-animation: wiggle .6s;
-    -o-animation: wiggle .6s;
-    animation: wiggle .6s; }
+  width: 90%; }
+  @media (min-width: 786px) {
+    .cta {
+      width: 70%; } }
 
 .shouts {
   font-family: 'Pacifico', cursive;
-  padding: 50px 0;
+  padding: 100px 0 0;
   text-align: center;
   width: 100%; }
   .shouts a {
     color: #ffffff; }
 
-.card-container {
+.display-container {
   display: flex;
   flex-flow: column wrap;
   margin-top: 60px;
   width: 100%; }
   @media (min-width: 786px) {
-    .card-container {
+    .display-container {
       width: 32%; } }
 
-.display-card--whats-my-name, .display-card--in-the-morning-2, .display-card--zero-to-one-hundred, .display-card--best-i-ever-had, .display-card--hotline-bling, .display-card--in-the-morning {
-  width: 100%;
-  -webkit-box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.8);
-  -moz-box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.8);
-  box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.8); }
+.card-container {
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
+  -moz-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
+  box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8); }
+
+img {
+  width: 100%; }
+
+.social-share-container {
+  margin-top: 30px; }

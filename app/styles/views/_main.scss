@@ -22,20 +22,26 @@
   background-image: radial-gradient(circle at 40% 30% , #F73A49 0%, #F73A49 5%, $deep-red 95%);
   display: flex;
     flex-flow: column wrap;
-  padding: 0 20px;
+  padding: 30px 20px;
 
   @media (min-width: $break-one) {
-    padding: 0 50px;
+    padding: 60px 50px;
   }
 }
 
 .welcome-header {
   font-family: 'Pacifico', cursive;
-  font-size: 8vw;
-  padding: 60px 0;
+  font-size: 12vw;
+  line-height: 14vw;
+  padding: 0 0 20px;
   text-shadow: 0 0 15px rgba(0, 2, 0, .4);
   text-align: center;
   width: 100%;
+
+  @media (min-width: $break-one) {
+    font-size: 8vw;
+    line-height: 8vw;
+  }
 }
 
 .card-display-container {
@@ -48,61 +54,17 @@
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin: 0 auto;
-  padding: 100px 0 0;
   text-align: center;
-  width: 70%;
-}
+  width: 90%;
 
-.drakes-vip-valentine {
-  width: 100%;
-}
-
-.vip-input-container {
-  align-self: flex-end;
-  padding: 100px 0;
-  text-align: center;
-  width: 100%;
-}
-
-#vip-collection-input {
-  background: none;
-  border: none;
-  border-bottom: 1px solid $base-white;
-  color: $base-white;
-  font-size: 1.8em;
-  outline: none;
-  padding: 10px 15px;
-    width: 30%;
-
-  @include placeholder {
-    color: $base-white;
-    font-family: 'Allura', cursive;
-  }
-}
-
-#vip-submit-button {
-  background: $base-white;
-  border: none;
-  box-shadow: 1px 1px 8px rgba(0, 2, 0, .6);
-  color: $deep-red;
-  cursor: pointer;
-  font-family: 'Pacifico', cursive;
-  font-size: 1.6em;
-  margin: 0 0 0 20px;
-  padding: 10px 20px;
-  transition: all .4s;
-
-  &:hover {
-    box-shadow: 1px 1px 8px rgba(0, 2, 0, .8);
-    transform: scale(1.05);
-
-    @include animation('wiggle .6s');
+  @media (min-width: $break-one) {
+    width: 70%;
   }
 }
 
 .shouts {
   font-family: 'Pacifico', cursive;
-  padding: 50px 0;
+  padding: 100px 0 0;
   text-align: center;
   width: 100%;
 
