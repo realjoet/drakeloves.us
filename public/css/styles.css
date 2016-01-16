@@ -100,20 +100,31 @@ table {
   background-image: radial-gradient(circle at 40% 30%, #F73A49 0%, #F73A49 5%, #E92452 95%);
   display: flex;
   flex-flow: column wrap;
-  padding: 60px 50px; }
+  padding: 0 50px; }
 
 .welcome-header {
   font-family: 'Pacifico', cursive;
   font-size: 8vw;
+  padding: 60px 0;
   text-shadow: 0 0 15px rgba(0, 2, 0, 0.4);
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
+
+.card-display-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
 
 .cta {
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin: 0 auto;
   padding: 100px 0 0;
-  width: 50%; }
+  text-align: center;
+  width: 70%; }
+
+.drakes-vip-valentine {
+  width: 100%; }
 
 .vip-input-container {
   align-self: flex-end;
@@ -164,8 +175,23 @@ table {
 
 .shouts {
   font-family: 'Pacifico', cursive;
-  padding-top: 30px;
+  padding: 50px 0;
   text-align: center;
   width: 100%; }
   .shouts a {
     color: #ffffff; }
+
+.card-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%; }
+  @media (min-width: 786px) {
+    .card-container {
+      margin-top: 60px;
+      width: 32%; } }
+
+.display-card--whats-my-name, .display-card--in-the-morning-2, .display-card--zero-to-one-hundred, .display-card--best-i-ever-had, .display-card--hotline-bling, .display-card--in-the-morning {
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 8px #4a4a4a;
+  -moz-box-shadow: 1px 1px 8px #4a4a4a;
+  box-shadow: 1px 1px 8px #4a4a4a; }
