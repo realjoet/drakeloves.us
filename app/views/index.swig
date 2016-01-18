@@ -4,7 +4,7 @@
 <div class="site-container">
   <h1 class="welcome-header">{{ title }}</h1>
 
-  <p class="cta">Want to be Drake's Valentine? Who doesn't??</p>
+  <p class="cta">Want to be Drake's Valentine? Who doesn't?? Bump that mood music and enjoy the club!</p>
 
   <div class="card-display-container">
     <section class="display-container">

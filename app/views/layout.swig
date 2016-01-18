@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width">
   <meta property="fb:app_id" content="720147334789057" /> 
   <meta property="og:url" content="http://www.drakeloves.us" />
+  {# Fix og:type meta tag --> Test here https://developers.facebook.com/tools/debug/og/object/ #}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Drake Loves Us" />
   <meta property="og:description" content="Want to be Drake's Valentine? Who doesn't? Now you can." />
+  {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
   <meta property="og:image" content="img/whats-my-name.png" />
   <title>{{ title }}</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
