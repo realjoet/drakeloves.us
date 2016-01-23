@@ -17,7 +17,7 @@
   <meta name="twitter:creator" content="@realjoet">
   <meta name="twitter:title" content="Drake's Valentine Club">
   <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't? Now you can.">
-  <meta name="twitter:image" content="http://postimg.org/image/t39ju3j7r/">
+  <meta name="twitter:image" content="img/whats-my-name.png">
   <title>{{ title }}</title>
   <link rel="shortcut icon" href="img/drake-favicon.png" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
