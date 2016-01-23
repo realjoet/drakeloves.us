@@ -8,9 +8,9 @@
   {# Fix og:type meta tag --> Test here https://developers.facebook.com/tools/debug/og/object/ #}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Drake Loves Us" />
-  <meta property="og:description" content="Want to be Drake's Valentine? Who doesn't? Now you can." />
+  <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
-  <meta property="og:image" content="img/whats-my-name.png" />
+  <meta property="og:image" content="http://postimg.org/image/t39ju3j7r/" />
   <title>{{ title }}</title>
   <link rel="shortcut icon" href="img/drake-favicon.png" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
