@@ -34,7 +34,7 @@ img {
   padding: 15px 0;
   text-align: center;
   transition: all .4s;
-  width: 33.3%;
+  width: 50%;
 }
 
 .share-button--facebook {
@@ -44,16 +44,6 @@ img {
 
   &:hover { 
     background-color: darken($facebook-blue, 10%);
-  }
-}
-
-.share-button--instagram {
-  @extend %share-button;
-  
-  background: $instagram-blue url(../img/instagram-icon.png) center/35px no-repeat;
-
-  &:hover { 
-    background-color: darken($instagram-blue, 10%);
   }
 }
 
