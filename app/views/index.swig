@@ -77,7 +77,9 @@
   
   <span class="shouts">a <a href="http://www.twitter.com/realjoet" target="_blank">realjoet</a> creation</span>
   <div class="site-share-container">
-    <div class="fb-share-button" data-href="https://www.drakeloves.us" data-layout="button_count"></div>
+    <div class="fb-share-button" data-href="https://www.drakeloves.us" data-layout="
+    button_count"></div>
+    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.drakeloves.us" data-text="Want to be Drake's Valentine? Ya you do!" data-via="realjoet" data-hashtags="Drake">Tweet</a>
   </div>
 </div>
 {% endblock %}
