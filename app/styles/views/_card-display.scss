@@ -4,6 +4,8 @@
   margin-top: 60px;
   width: 100%;
 
+  @include box-shadow(1px, 1px, 20px, rgba($dark-grey, .8));
+
   @media (min-width: $break-one) {
     width: 32%;
   }
