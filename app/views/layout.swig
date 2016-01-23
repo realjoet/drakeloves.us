@@ -12,6 +12,7 @@
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
   <meta property="og:image" content="img/whats-my-name.png" />
   <title>{{ title }}</title>
+  <link rel="shortcut icon" href="img/drake-favicon.png" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="modernizr-settings.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>

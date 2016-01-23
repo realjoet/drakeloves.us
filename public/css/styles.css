@@ -165,7 +165,7 @@ img {
   flex-flow: row wrap; }
 
 .share-button--facebook, .share-button--instagram, .share-button--twitter {
-  color: #ffffff;
+  color: transparent;
   cursor: pointer;
   font-size: 1.2rem;
   padding: 15px 0;
@@ -174,16 +174,16 @@ img {
   width: 33.3%; }
 
 .share-button--facebook {
-  background: #3b5998; }
+  background: #3b5998 url(../img/facebook-icon.png) center/35px no-repeat; }
   .share-button--facebook:hover {
-    background: #2d4373; }
+    background-color: #2d4373; }
 
 .share-button--instagram {
-  background: #3F729B; }
+  background: #3F729B url(../img/instagram-icon.png) center/35px no-repeat; }
   .share-button--instagram:hover {
-    background: #305777; }
+    background-color: #305777; }
 
 .share-button--twitter {
-  background: #55acee; }
+  background: #55acee url(../img/twitter-icon.png) center/35px no-repeat; }
   .share-button--twitter:hover {
-    background: #2795e9; }
+    background-color: #2795e9; }
