@@ -41,5 +41,34 @@
      }(document, 'script', 'facebook-jssdk'));
   </script>
   {% block content %}{% endblock %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script>
+    $(function(){
+      var $displayContainer = $('.card-container');
+      var $card = $('img');
+      var $shareButtons = $('.social-share-container');
+
+      var setDisplayHeight = function(){
+        $cardHeight = $card.height();
+        $shareButtonsHeight = $shareButtons.height();
+
+        console.log("Card height: " + $cardHeight +
+          "\nSocial container height: " + $shareButtonsHeight
+        );
+
+        $displayContainer.css({
+          "height": ($cardHeight + $shareButtonsHeight),
+        })
+      }
+
+      setDisplayHeight();
+      
+      $(window).resize(function(){
+        setDisplayHeight();
+      })
+
+    })
+  </script>
 </body>
 </html>

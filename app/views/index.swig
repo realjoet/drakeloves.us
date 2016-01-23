@@ -9,8 +9,8 @@
   <div class="card-display-container">
     <section class="display-container">
       <div class="card-container">
-        <img src="img/whats-my-name.png" alt="Drake Valentine's Card based off Rihanna's song 'What's My Name ft. Drake'" class="display-card--whats-my-name">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A5xZtUAVUVfjBtVtMOgMkyy" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/whats-my-name.png" alt="Drake Valentine's Card based off Rihanna's song 'What's My Name ft. Drake'" id="display-card--whats-my-name" class="display-card--whats-my-name">
+        {# <iframe width="100%" height="80" src="https://www.youtube.com/embed/uxpDa-c-4Mc" frameborder="0" allowfullscreen></iframe> #}
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
@@ -21,8 +21,7 @@
 
     <section class="display-container">
       <div class="card-container">
-        <img src="img/in-the-morning-2.png" alt="Drake Valentine's Card based off the J. Cole's song 'In The Morning ft. Drake'" class="display-card--in-the-morning-2">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6FedhFiHb0KxTvOD1qEX8L" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/in-the-morning-2.png" alt="Drake Valentine's Card based off the J. Cole's song 'In The Morning ft. Drake'" id="display-card--in-the-morning-2" class="display-card--in-the-morning-2">
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
@@ -33,8 +32,7 @@
 
     <section class="display-container">
       <div class="card-container">
-        <img src="img/0-100.png" alt="Drake Valentine's Card based off the song '0-100'" class="display-card--zero-to-one-hundred">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A4jtyUzZm9WLc2AdaJ1dso7" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/0-100.png" alt="Drake Valentine's Card based off the song '0-100'" id="display-card--zero-to-one-hundred" class="display-card--zero-to-one-hundred">
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
@@ -45,8 +43,7 @@
 
     <section class="display-container">
       <div class="card-container">
-        <img src="img/best-i-ever-had.png" alt="Drake Valentine's Card based off the song 'Best I Ever Had'" class="display-card--best-i-ever-had">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A3fyMH1t6UPeR5croea9PrR" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/best-i-ever-had.png" alt="Drake Valentine's Card based off the song 'Best I Ever Had'" id="display-card--best-i-ever-had" class="display-card--best-i-ever-had">
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
@@ -57,8 +54,7 @@
 
     <section class="display-container">
       <div class="card-container">
-        <img src="img/hotline-bling.png" alt="Drake Valentine's Card based off the song 'Hotline Bling'" class="display-card--hotline-bling">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6nmz4imkDcmtwMjocAzFSx" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/hotline-bling.png" alt="Drake Valentine's Card based off the song 'Hotline Bling'" id="display-card--hotline-bling" class="display-card--hotline-bling">
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
@@ -69,8 +65,7 @@
 
     <section class="display-container">
       <div class="card-container">
-        <img src="img/in-the-morning.png" alt="Drake Valentine's Card based off the J. Cole's song 'In The Morning ft. Drake'" class="display-card--in-the-morning">
-        <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6FedhFiHb0KxTvOD1qEX8L" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe>
+        <img src="img/in-the-morning.png" alt="Drake Valentine's Card based off the J. Cole's song 'In The Morning ft. Drake'" id="display-card--in-the-morning" class="display-card--in-the-morning">
         <div class="social-share-container">
           <div class="share-button--facebook">Facebook</div>
           <div class="share-button--instagram">Instagram</div>
