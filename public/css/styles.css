@@ -141,6 +141,11 @@ table {
   .shouts a {
     color: #ffffff; }
 
+.site-share-container {
+  padding: 20px 0 0;
+  text-align: center;
+  width: 100%; }
+
 .display-container {
   display: flex;
   flex-flow: column wrap;
