@@ -12,13 +12,12 @@
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
   <meta property="og:image" content="http://postimg.org/image/t39ju3j7r/" />
 
-  <meta name="twitter:card" content="img/whats-my-name.png">
-{#   <meta name="twitter:site" content="[at]site_username"> #}
-  <meta name="twitter:title" content="Drake Loves Us">
-  <meta name="twitter:description" content="You love Drake and he loves you">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@realjoet">
   <meta name="twitter:creator" content="@realjoet">
-  <meta name="twitter:image:src" content="http://postimg.org/image/t39ju3j7r/">
-  <meta name="twitter:domain" content="http://www.drakeloves.us">
+  <meta name="twitter:title" content="Drake's Valentine Club">
+  <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't? Now you can.">
+  <meta name="twitter:image" content="http://postimg.org/image/t39ju3j7r/">
   <title>{{ title }}</title>
   <link rel="shortcut icon" href="img/drake-favicon.png" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
