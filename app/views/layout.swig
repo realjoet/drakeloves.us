@@ -12,6 +12,8 @@
   <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
   <meta property="og:image" content="http://postimg.org/image/t39ju3j7r/" />
+  <meta property="og:image:height" content="276" />
+  <meta property="og:image:width" content="469" />
   {# Test Facebook Share results here https://developers.facebook.com/tools/debug/og/object/ #}
 
   {# Twitter meta tags #}

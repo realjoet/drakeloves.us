@@ -154,10 +154,7 @@ table {
   display: flex;
   flex-flow: column wrap;
   margin-top: 60px;
-  width: 100%;
-  -webkit-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
-  -moz-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
-  box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8); }
+  width: 100%; }
   @media (min-width: 786px) {
     .display-container {
       width: 32%; } }
@@ -165,9 +162,9 @@ table {
 .card-container {
   display: flex;
   flex-flow: column wrap;
-  -webkit-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
-  -moz-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8);
-  box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.8); }
+  -webkit-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.6);
+  -moz-box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.6);
+  box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.6); }
 
 img {
   width: 100%; }
