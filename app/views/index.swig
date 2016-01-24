@@ -73,7 +73,7 @@
   <div class="site-share-container">
     <div class="fb-share-button" data-href="https://www.drakeloves.us" data-layout="
     button_count"></div>
-    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.drakeloves.us" data-text="Want to be Drake's Valentine? Ya you do!" data-via="realjoet" data-hashtags="Drake, ValentinesDay, humor">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.drakeloves.us" data-text="Want to be Drake's Valentine? Who doesn't?! Now you can." data-via="realjoet" data-hashtags="Drake, ValentinesDay, humor">Tweet</a>
   </div>
 </div>
 {% endblock %}

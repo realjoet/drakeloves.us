@@ -21,7 +21,7 @@
   <meta name="twitter:site" content="@realjoet">
   <meta name="twitter:creator" content="@realjoet">
   <meta name="twitter:title" content="Drake's Valentine Club">
-  <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't? Now you can.">
+  <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't?! Now you can.">
   <meta name="twitter:image" content="http://postimg.org/image/t39ju3j7r/">
   {# Test Twitter Card results: https://cards-dev.twitter.com/validator #}
 
