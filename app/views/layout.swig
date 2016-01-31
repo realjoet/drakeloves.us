@@ -176,9 +176,9 @@
         })
       }
 
+      setDisplayHeight();
       facebookPostReq();
       twitterPostReq();
-      setDisplayHeight();
       
       $(window).resize(function(){
         setDisplayHeight();
