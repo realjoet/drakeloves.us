@@ -151,7 +151,7 @@
               break;
             case 'in-the-morning-2':
               image = "http://imgur.com/wSgN6Tg";
-              message = "";
+              message = "Let's do this. Love, Drake #Drake #ValentinesDay";
               break;
             case '0-100':
               image = "http://imgur.com/QNn8D6B";
