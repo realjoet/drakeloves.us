@@ -176,7 +176,7 @@
         })
       }
 
-      setDisplayHeight();
+      setDisplayHeight();g
       facebookPostReq();
       twitterPostReq();
       
