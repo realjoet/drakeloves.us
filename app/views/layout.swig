@@ -176,10 +176,10 @@
         })
       }
 
-      setDisplayHeight();
-      $(window).resize(function(){
-        setDisplayHeight();
-      })
+      // setDisplayHeight();
+      // $(window).resize(function(){
+      //   setDisplayHeight();
+      // })
 
       facebookPostReq();
       twitterPostReq();
