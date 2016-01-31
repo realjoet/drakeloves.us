@@ -140,13 +140,37 @@
       var twitterPostReq = function() {
         $(".share-button--twitter").click(function(){
           console.log("Twitter Share");
+          var card = $(this).attr('value');
+          var image;
+          var message;
 
-          //Add Switch/Case to define vars
-          var url = 'http://imgur.com/gallery/3HBTLJI';
-          var twitter = {
-            "message": "Test message #cool",
+          switch(card) {
+            case 'whats-my-name':
+              image = "http://imgur.com/3HBTLJI";
+              message = "Chivalry at it's finest. Love, Drake #Drake #ValentinesDay";
+              break;
+            case 'in-the-morning-2':
+              image = "http://imgur.com/wSgN6Tg";
+              message = "";
+              break;
+            case '0-100':
+              image = "http://imgur.com/QNn8D6B";
+              message = "I zero to 100, real quick. Love, Drake #Drake #ValentinesDay";
+              break;
+            case 'best-i-ever-had':
+              image = "http://imgur.com/1gqFxuB";
+              message = "You the best I ever had. Love, Drake #Drake #ValentinesDay";
+              break;
+            case 'hotline-bling':
+              image = "http://imgur.com/tqb0fHm";
+              message = "1-800-HOTLINEBLING #Drake #ValentinesDay";
+              break;
+            case 'in-the-morning':
+              image = "http://imgur.com/ffdtp4s";
+              message = "Who says chilvary is dead? Love, Drake #Drake #ValentinesDay";
           }
-          var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter.message) + ' ' + encodeURIComponent(url);
+
+          var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + ' ' + encodeURIComponent(image);
 
           window.open(url, 'sharetwitter', 'height=500,width=500');
         })
