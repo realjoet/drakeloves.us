@@ -11,7 +11,7 @@
   <meta property="og:title" content="Drake Loves Us" />
   <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
-  <meta property="og:image" content="http://postimg.org/image/t39ju3j7r/" />
+  <meta property="og:image" content="http://imgur.com/3HBTLJI" />
   <meta property="og:image:height" content="276" />
   <meta property="og:image:width" content="469" />
   {# Test Facebook Share results here https://developers.facebook.com/tools/debug/og/object/ #}
@@ -22,7 +22,7 @@
   <meta name="twitter:creator" content="@realjoet">
   <meta name="twitter:title" content="Drake's Valentine Club">
   <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't?! Now you can.">
-  <meta name="twitter:image" content="http://postimg.org/image/t39ju3j7r/">
+  <meta name="twitter:image" content="http://imgur.com/3HBTLJI">
   {# Test Twitter Card results: https://cards-dev.twitter.com/validator #}
 
   <title>{{ title }}</title>
@@ -40,6 +40,7 @@
   {# Twitter share button widget #}
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
+
   {# Facebook jsSDK #}
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -49,8 +50,11 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
+
   {% block content %}{% endblock %}
+
   <script>
+    //Google Analytics script
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -60,7 +64,6 @@
     ga('send', 'pageview');
 
   </script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script>
     $(function(){
@@ -68,6 +71,7 @@
       var $card = $('img');
       var $shareButtons = $('.social-share-container');
 
+      //Keeps card display height regulated across screen sizes
       var setDisplayHeight = function(){
         $cardHeight = $card.height();
         $shareButtonsHeight = $shareButtons.height();
@@ -77,6 +81,79 @@
         })
       }
 
+      // Facebook POST Request function
+      var facebookPostReq = function(el) {
+        $(".share-button--facebook").click(function(){
+          console.log("Facebook Share");
+          var card = $(this).attr('value');
+          var image;
+          var caption;
+          var description;
+
+          //Add Switch/Case to define vars
+          switch(card) {
+            case 'whats-my-name':
+              image = "http://imgur.com/3HBTLJI";
+              caption = "";
+              description = "";
+              break;
+            case 'in-the-morning-2':
+              image = "http://imgur.com/wSgN6Tg";
+              caption = "";
+              description = "";
+              break;
+            case '0-100':
+              image = "http://imgur.com/QNn8D6B";
+              caption = "";
+              description = "";
+              break;
+            case 'best-i-ever-had':
+              image = "http://imgur.com/1gqFxuB";
+              caption = "";
+              description = "";
+              break;
+            case 'hotline-bling':
+              image = "http://imgur.com/tqb0fHm";
+              caption = "";
+              description = "";
+              break;
+            case 'in-the-morning':
+              image = "http://imgur.com/ffdtp4s";
+              caption = "";
+              description = "";
+          }
+
+          FB.ui({
+            method: 'share',
+            href: "http://www.drakeloves.us",
+            picture: image,
+            caption: caption,
+            description: description
+
+          }, function() {
+            //Success
+          });
+        })
+      }
+
+      // Twitter POST Request function
+      var twitterPostReq = function() {
+        $(".share-button--twitter").click(function(){
+          console.log("Twitter Share");
+
+          //Add Switch/Case to define vars
+          var url = 'http://imgur.com/gallery/3HBTLJI';
+          var twitter = {
+            "message": "Test message #cool",
+          }
+          var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(twitter.message) + ' ' + encodeURIComponent(url);
+
+          window.open(url, 'sharetwitter', 'height=500,width=500');
+        })
+      }
+
+      facebookPostReq();
+      twitterPostReq();
       setDisplayHeight();
       
       $(window).resize(function(){
