@@ -11,7 +11,7 @@
   <meta property="og:title" content="Drake's Valentine Club" />
   <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
-  <meta property="og:image" content="http://imgur.com/3HBTLJI" />
+  <meta property="og:image" content="http://www.drakeloves.us/whats-my-name" />
   {# Test Facebook Share results here https://developers.facebook.com/tools/debug/og/object/ #}
 
   {# Twitter meta tags #}
@@ -40,7 +40,16 @@
   </script>
 
   {# Facebook jsSDK #}
-  <script>(function(d, s, id) {
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '720147334789057',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
@@ -91,7 +100,7 @@
           //Add Switch/Case to define vars
           switch(card) {
             case 'whats-my-name':
-              image = "http://imgur.com/3HBTLJI";
+              image = "http://www.drakeloves.us/whats-my-name";
               caption = "";
               description = "";
               break;
