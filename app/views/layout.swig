@@ -8,12 +8,10 @@
   {# Facebook Share meta tags #}
   <meta property="fb:app_id" content="720147334789057" /> 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Drake Loves Us" />
+  <meta property="og:title" content="Drake's Valentine Club" />
   <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
   <meta property="og:image" content="http://imgur.com/3HBTLJI" />
-  <meta property="og:image:height" content="600" />
-  <meta property="og:image:width" content="600" />
   {# Test Facebook Share results here https://developers.facebook.com/tools/debug/og/object/ #}
 
   {# Twitter meta tags #}
