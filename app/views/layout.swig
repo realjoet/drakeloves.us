@@ -106,32 +106,32 @@
           //Add Switch/Case to define vars
           switch(card) {
             case 'whats-my-name':
-              image = "http://imgur.com/3HBTLJI";
+              image = "http://www.drakeloves.us/img/whats-my-name.png";
               caption = "";
               description = "";
               break;
             case 'in-the-morning-2':
-              image = "http://imgur.com/wSgN6Tg";
+              image = "http://www.drakeloves.us/img/in-the-morning-2.png";
               caption = "";
               description = "";
               break;
             case '0-100':
-              image = "http://imgur.com/QNn8D6B";
+              image = "http://www.drakeloves.us/img/0-100.png";
               caption = "";
               description = "";
               break;
             case 'best-i-ever-had':
-              image = "http://imgur.com/1gqFxuB";
+              image = "http://www.drakeloves.us/img/best-i-ever-had.png";
               caption = "";
               description = "";
               break;
             case 'hotline-bling':
-              image = "http://imgur.com/tqb0fHm";
+              image = "http://www.drakeloves.us/img/hotline-bling.png";
               caption = "";
               description = "";
               break;
             case 'in-the-morning':
-              image = "http://imgur.com/ffdtp4s";
+              image = "http://www.drakeloves.us/img/in-the-morning.png";
               caption = "";
               description = "";
           }
@@ -159,27 +159,27 @@
 
           switch(card) {
             case 'whats-my-name':
-              image = "http://www.drakeloves.us/img/whats-my-name.png";
+              image = "http://imgur.com/3HBTLJI";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'in-the-morning-2':
-              image = "http://www.drakeloves.us/img/in-the-morning-2.png";
+              image = "http://imgur.com/wSgN6Tg";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case '0-100':
-              image = "http://www.drakeloves.us/img/0-100.png";
+              image = "http://imgur.com/QNn8D6B";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'best-i-ever-had':
-              image = "http://www.drakeloves.us/img/best-i-ever-had.png";
+              image = "http://imgur.com/1gqFxuB";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'hotline-bling':
-              image = "http://www.drakeloves.us/img/hotline-bling.png";
+              image = "http://imgur.com/tqb0fHm";
               message = "1-800-HOTLINEBLING #DrakeValentinesClub #Drake #ValentinesDay via @realjoet";
               break;
             case 'in-the-morning':
-              image = "http://www.drakeloves.us/img/in-the-morning.png";
+              image = "http://imgur.com/ffdtp4s";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
           }
 
