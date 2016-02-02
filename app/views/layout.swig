@@ -20,7 +20,7 @@
   <meta name="twitter:creator" content="@realjoet">
   <meta name="twitter:title" content="Drake's Valentine Club">
   <meta name="twitter:description" content="Want to be Drake's Valentine? Who doesn't?! Now you can.">
-  <meta name="twitter:image" content="http://imgur.com/3HBTLJI">
+  <meta name="twitter:image" content="http://www.drakeloves.us/whats-my-name">
   {# Test Twitter Card results: https://cards-dev.twitter.com/validator #}
 
   <title>{{ title }}</title>
@@ -35,9 +35,6 @@
   {% endif %}
 </head>
 <body>
-  {# Twitter share button widget #}
-  <script>function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script>
 
   {# Facebook jsSDK #}
   <script>
@@ -81,14 +78,18 @@
       var $shareButtons = $('.social-share-container');
 
       //Keeps card display height regulated across screen sizes
-      // var setDisplayHeight = function(){
-      //   $cardHeight = $card.height();
-      //   $shareButtonsHeight = $shareButtons.height();
+      var setDisplayHeight = function(){
+        $displayContainerWidth = $displayContainer.innerWidth();
+        $shareButtonsHeight = $shareButtons.height();
 
-      //   $displayContainer.css({
-      //     "height": ($cardHeight + $shareButtonsHeight),
-      //   })
-      // }
+        $card.css({
+          "height": $displayContainerWidth,
+        });
+
+        $displayContainer.css({
+          "height": $displayContainerWidth + $shareButtonsHeight,
+        });
+      }
 
       // Facebook POST Request function
       var facebookPostReq = function(el) {
@@ -107,27 +108,27 @@
               description = "";
               break;
             case 'in-the-morning-2':
-              image = "http://imgur.com/wSgN6Tg";
+              image = "http://www.drakeloves.us/in-the-morning-2";
               caption = "";
               description = "";
               break;
             case '0-100':
-              image = "http://imgur.com/QNn8D6B";
+              image = "http://www.drakeloves.us/0-100";
               caption = "";
               description = "";
               break;
             case 'best-i-ever-had':
-              image = "http://imgur.com/1gqFxuB";
+              image = "http://www.drakeloves.us/best-i-ever-had";
               caption = "";
               description = "";
               break;
             case 'hotline-bling':
-              image = "http://imgur.com/tqb0fHm";
+              image = "http://www.drakeloves.us/hotline-bling";
               caption = "";
               description = "";
               break;
             case 'in-the-morning':
-              image = "http://imgur.com/ffdtp4s";
+              image = "http://www.drakeloves.us/in-the-morning";
               caption = "";
               description = "";
           }
@@ -155,27 +156,27 @@
 
           switch(card) {
             case 'whats-my-name':
-              image = "http://imgur.com/3HBTLJI";
+              image = "http://www.drakeloves.us/whats-my-name";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'in-the-morning-2':
-              image = "http://imgur.com/wSgN6Tg";
+              image = "http://www.drakeloves.us/in-the-morning-2";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case '0-100':
-              image = "http://imgur.com/QNn8D6B";
+              image = "http://www.drakeloves.us/0-100";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'best-i-ever-had':
-              image = "http://imgur.com/1gqFxuB";
+              image = "http://www.drakeloves.us/best-i-ever-had";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'hotline-bling':
-              image = "http://imgur.com/tqb0fHm";
+              image = "http://www.drakeloves.us/hotline-bling";
               message = "1-800-HOTLINEBLING #DrakeValentinesClub #Drake #ValentinesDay via @realjoet";
               break;
             case 'in-the-morning':
-              image = "http://imgur.com/ffdtp4s";
+              image = "http://www.drakeloves.us/in-the-morning";
               message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
           }
 
@@ -185,10 +186,10 @@
         })
       }
 
-      // setDisplayHeight();
-      // $(window).resize(function(){
-      //   setDisplayHeight();
-      // })
+      setDisplayHeight();
+      $(window).resize(function(){
+        setDisplayHeight();
+      })
 
       facebookPostReq();
       twitterPostReq();

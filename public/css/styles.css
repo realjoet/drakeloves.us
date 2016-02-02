@@ -167,6 +167,7 @@ table {
   box-shadow: 1px 1px 20px rgba(48, 48, 48, 0.6); }
 
 img {
+  height: auto;
   width: 100%; }
 
 .social-share-container {
