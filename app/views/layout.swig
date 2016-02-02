@@ -83,7 +83,6 @@
       //Keeps card display height regulated across screen sizes
       var setDisplayHeight = function(){
         $displayContainerWidth = $displayContainer.width();
-        $cardHeight = $card.height();
         $shareButtonsHeight = $shareButtons.height();
 
         $card.css({
@@ -91,7 +90,7 @@
         });
 
         $displayContainer.css({
-          "height": $cardHeight + $shareButtonsHeight,
+          "height": $displayContainerWidth + $shareButtonsHeight,
         });
       }
 
