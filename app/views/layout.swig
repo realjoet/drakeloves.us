@@ -81,14 +81,14 @@
       var $shareButtons = $('.social-share-container');
 
       //Keeps card display height regulated across screen sizes
-      var setDisplayHeight = function(){
-        $cardHeight = $card.height();
-        $shareButtonsHeight = $shareButtons.height();
+      // var setDisplayHeight = function(){
+      //   $cardHeight = $card.height();
+      //   $shareButtonsHeight = $shareButtons.height();
 
-        $displayContainer.css({
-          "height": ($cardHeight + $shareButtonsHeight),
-        })
-      }
+      //   $displayContainer.css({
+      //     "height": ($cardHeight + $shareButtonsHeight),
+      //   })
+      // }
 
       // Facebook POST Request function
       var facebookPostReq = function(el) {
