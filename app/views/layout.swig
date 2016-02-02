@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -36,7 +36,7 @@
 </head>
 <body>
   {# Twitter share button widget #}
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  <script>function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
 
   {# Facebook jsSDK #}
@@ -44,6 +44,8 @@
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '720147334789057',
+      status     : true,
+      cookie     : true,
       xfbml      : true,
       version    : 'v2.5'
     });
@@ -154,27 +156,27 @@
           switch(card) {
             case 'whats-my-name':
               image = "http://imgur.com/3HBTLJI";
-              message = "Chivalry at it's finest. Love, Drake #Drake #ValentinesDay";
+              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'in-the-morning-2':
               image = "http://imgur.com/wSgN6Tg";
-              message = "Let's do this. Love, Drake #Drake #ValentinesDay";
+              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case '0-100':
               image = "http://imgur.com/QNn8D6B";
-              message = "I zero to 100, real quick. Love, Drake #Drake #ValentinesDay";
+              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'best-i-ever-had':
               image = "http://imgur.com/1gqFxuB";
-              message = "You the best I ever had. Love, Drake #Drake #ValentinesDay";
+              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
               break;
             case 'hotline-bling':
               image = "http://imgur.com/tqb0fHm";
-              message = "1-800-HOTLINEBLING #Drake #ValentinesDay";
+              message = "1-800-HOTLINEBLING #DrakeValentinesClub #Drake #ValentinesDay via @realjoet";
               break;
             case 'in-the-morning':
               image = "http://imgur.com/ffdtp4s";
-              message = "Who says chilvary is dead? Love, Drake #Drake #ValentinesDay";
+              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
           }
 
           var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + ' ' + encodeURIComponent(image);
