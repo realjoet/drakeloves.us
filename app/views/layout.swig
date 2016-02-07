@@ -11,7 +11,7 @@
   <meta property="og:title" content="Drake's Valentine Club" />
   <meta property="og:description" content="Be Drake's Valentine" />
   {# Fix og:image content tag --> Image doesn't fit FB share pic size 469px by 276px #}
-  <meta property="og:image" content="http://www.drakeloves.us/img/whats-my-name.png" />
+  <meta property="og:image" content="http://www.drakeloves.us/img/whats-my-name--facebook-optimized.png" />
   {# Test Facebook Share results here https://developers.facebook.com/tools/debug/og/object/ #}
 
   {# Twitter meta tags #}
@@ -106,32 +106,32 @@
           //Add Switch/Case to define vars
           switch(card) {
             case 'whats-my-name':
-              image = "http://www.drakeloves.us/img/whats-my-name.png";
+              image = "http://www.drakeloves.us/img/whats-my-name--facebook-optimized.png";
               caption = "";
               description = "";
               break;
             case 'in-the-morning-2':
-              image = "http://www.drakeloves.us/img/in-the-morning-2.png";
+              image = "http://www.drakeloves.us/img/in-the-morning-2--facebook-optimized.png";
               caption = "";
               description = "";
               break;
             case '0-100':
-              image = "http://www.drakeloves.us/img/0-100.png";
+              image = "http://www.drakeloves.us/img/0-100--facebook-optimized.png";
               caption = "";
               description = "";
               break;
             case 'best-i-ever-had':
-              image = "http://www.drakeloves.us/img/best-i-ever-had.png";
+              image = "http://www.drakeloves.us/img/best-i-ever-had--facebook-optimized.png";
               caption = "";
               description = "";
               break;
             case 'hotline-bling':
-              image = "http://www.drakeloves.us/img/hotline-bling.png";
+              image = "http://www.drakeloves.us/img/hotline-bling--facebook-optimized.png";
               caption = "";
               description = "";
               break;
             case 'in-the-morning':
-              image = "http://www.drakeloves.us/img/in-the-morning.png";
+              image = "http://www.drakeloves.us/img/in-the-morning--facebook-optimized.png";
               caption = "";
               description = "";
           }
