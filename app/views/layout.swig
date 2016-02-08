@@ -159,28 +159,28 @@
 
           switch(card) {
             case 'whats-my-name':
-              image = "http://imgur.com/3HBTLJI";
-              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
+              image = "http://bit.ly/20jUlB8";
+              message = "#DrakeValentinesClub is the place for that special #Drake fan in your life this #ValentinesDay via @realjoet #humor";
               break;
             case 'in-the-morning-2':
-              image = "http://imgur.com/wSgN6Tg";
-              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
+              image = "bit.ly/1KB2MGr";
+              message = "#DrakeValentinesClub is the place for that special #Drake fan in your life this #ValentinesDay via @realjoet #humor";
               break;
             case '0-100':
-              image = "http://imgur.com/QNn8D6B";
-              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
+              image = "http://bit.ly/1Q5cfbe";
+              message = "#DrakeValentinesClub is the place for that special #Drake fan in your life this #ValentinesDay via @realjoet #humor";
               break;
             case 'best-i-ever-had':
-              image = "http://imgur.com/1gqFxuB";
-              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
+              image = "http://bit.ly/1TOfjZb";
+              message = "#DrakeValentinesClub is the place for that special #Drake fan in your life this #ValentinesDay via @realjoet #humor";
               break;
             case 'hotline-bling':
               image = "http://imgur.com/tqb0fHm";
               message = "1-800-HOTLINEBLING #DrakeValentinesClub #Drake #ValentinesDay via @realjoet";
               break;
             case 'in-the-morning':
-              image = "http://imgur.com/ffdtp4s";
-              message = "Started from the bottom now we here. #DrakeValentinesClub #Drake #ValentinesDay #humor via @realjoet";
+              image = "http://bit.ly/1T8Gj6m";
+              message = "#DrakeValentinesClub is the place for that special #Drake fan in your life this #ValentinesDay via @realjoet #humor";
           }
 
           var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(message) + ' ' + encodeURIComponent(image);
